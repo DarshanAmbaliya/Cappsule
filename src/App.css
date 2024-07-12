@@ -1,38 +1,158 @@
-.App {
-  text-align: center;
+section .container .row .main-box .box .content .first-col {
+  width: 33%;
+}
+section .container .row .main-box .box .content .first-col button {
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.unavailable {
+  background-color: #f5f5f5;
+  border: 2px dashed black !important;
+  box-shadow: 0px 0px 0px 0px transparent !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.no-price {
+  background-color: #f5f5f5;
+  border: 2px dashed gray;
+  box-shadow: 0px 0px 0px 0px transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.form button {
+  cursor: pointer;
+}
+
+section .container .row .searchbar {
+  padding: 55px 15px;
+}
+section .container .row .searchbar .content {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
+  padding: 0px 30px;
+  width: 100%;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0px 0px 12px -6px black;
+}
+section .container .row .searchbar .content .search {
+  width: 3%;
+}
+section .container .row .searchbar .content .search svg {
+  display: inline-block !important;
+  cursor: pointer;
+  fill: #0e4491;
+}
+section .container .row .searchbar .content form {
+  width: 92%;
+}
+section .container .row .searchbar .content form input {
+  width: 100%;
+  padding: 20px 25px;
+  font-size: 17px;
+  outline: none;
+  border: none;
+}
+section .container .row .searchbar .content .btn {
+  width: 6%;
+}
+section .container .row .searchbar .content .btn button {
+  cursor: pointer;
+  text-transform: capitalize;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 700;
+  color: #0e4491;
+}
+section .container .row hr {
+  height: 2px;
+  background-color: rgb(223, 221, 221);
+  padding: 0px 15px;
+}
+section .container .row .main-box {
+  padding: 40px 0px;
+}
+section .container .row .main-box .box {
+  padding: 15px;
+}
+section .container .row .main-box .box .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  box-shadow: 0px 0px 15px -8px black;
+  border-radius: 12px;
+  background: rgb(6, 70, 33);
+  background: linear-gradient(90deg, rgba(6, 70, 33, 0) 27%, rgba(68, 147, 96, 0.0073529412) 64%, rgba(17, 147, 72, 0.099789916) 100%);
+}
+section .container .row .main-box .box .content .first-col {
+  display: flex;
+  flex-wrap: wrap;
+  width: 33%;
+}
+section .container .row .main-box .box .content .first-col p {
+  display: inline-block;
+  width: 22%;
+  padding: 5px 0px;
+}
+section .container .row .main-box .box .content .first-col .btn {
+  width: 75%;
+}
+section .container .row .main-box .box .content .first-col .btn button {
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 8px;
+  margin: 5px;
+  border: 2px solid gray;
+}
+section .container .row .main-box .box .content .first-col .btn button.selected {
+  box-shadow: 0px 0px 8px -1px #2afda8;
+  border: 2px solid black;
+  font-weight: 700;
+}
+section .container .row .main-box .box .content .first-col .btn button p {
+  color: #004ab4;
+  font-weight: 700;
+}
+section .container .row .main-box .box .content .first-col .btn p {
+  display: inline;
+  color: #0e4491;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 14px;
+}
+section .container .row .main-box .box .content .first-col .form {
+  display: flex;
+  width: 100%;
+  padding: 5px 0px;
+}
+section .container .row .main-box .box .content .first-col .strength {
+  display: flex;
+  width: 100%;
+  padding: 5px 0px;
+}
+section .container .row .main-box .box .content .first-col .packaging {
+  display: flex;
+  width: 100%;
+  padding: 5px 0px;
+}
+section .container .row .main-box .box .content .second-col {
+  width: 33%;
+}
+section .container .row .main-box .box .content .second-col span {
+  color: #004ab4;
+  font-weight: 700;
+  font-size: 13px;
+}
+section .container .row .main-box .box .content .third-col {
+  width: 25%;
+  text-align: center;
+  font-size: 22px;
+}
+section .container .row .main-box h2 {
+  height: 70vh;
+  color: #aba7a7;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  align-items: center;
+}/*# sourceMappingURL=App.css.map */
